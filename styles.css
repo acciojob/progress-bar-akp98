@@ -8,10 +8,15 @@ body {
     margin: 0;
 }
 
+.progress-container {
+    text-align: center;
+}
+
 .progress-bar {
     display: flex;
     justify-content: space-between;
     width: 250px;
+    margin-bottom: 20px; /* Space between progress bar and buttons */
 }
 
 .circle {
@@ -33,7 +38,6 @@ body {
 }
 
 .controls {
-    margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
